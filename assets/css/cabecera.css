@@ -1,0 +1,17 @@
+.cabecera{
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+@media (max-width: 768px){
+    .cabecera{
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+    .logo{
+        display: none;
+    }
+}
